@@ -9,14 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kavindu9.fast-food-app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/burger-two.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.kavindu9.fastfoodapp"
     },
     "web": {
       "bundler": "metro",
@@ -41,7 +43,11 @@
           "project": "react-native_fast_food_app",
           "organization": "kavindu-rj"
         }
-      ]
+      ],
+      "expo-web-browser",
+      "expo-font",
+      "expo-image",
+      "expo-status-bar"
     ],
     "experiments": {
       "typedRoutes": true

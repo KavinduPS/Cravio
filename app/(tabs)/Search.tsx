@@ -6,7 +6,7 @@ import { getCategories, getMenu } from "@/libs/appwrite";
 import { Categories, Menu } from "@/type";
 import cn from "clsx";
 import { useLocalSearchParams } from "expo-router";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FlatList, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -49,7 +49,7 @@ const Search = () => {
             <View
               className={cn(
                 "bg-white h-full rounded-2xl py-2 px-5",
-                !isEvenItem ? "mt-10" : "mt-0"
+                !isEvenItem ? "mt-10" : "mt-0",
               )}
               style={{ width: "45%" }}
             >
